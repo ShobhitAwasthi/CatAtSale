@@ -87,14 +87,14 @@ class App extends React.Component{
   }
   ArrowButton=()=>{
     return(
-    <div className="move">
-    <div className="left" onClick={this.leftClicked}>
+    <span className="move">
+    <span className="left" onClick={this.leftClicked}>
     <img src={left} alt="left"/> 
-    </div>
-    <div className="right" onClick={this.rightClicked}>
+    </span>
+    <span className="right" onClick={this.rightClicked}>
     <img src={right} alt="right"/> 
-    </div>
-    </div>);
+    </span>
+    </span>);
   }
   SlidingPanal=()=>{
     if(this.state.filteredList.length<3||this.state.NUMOFCATS<3)

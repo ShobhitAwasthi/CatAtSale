@@ -12,13 +12,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .left{
-  float: left;
+  position: fixed;
+  left:0px;
   margin-top: 10%;
 }
 
 .right{
-  float: right;
-  margin-top: 10%;
+position: fixed; 
+right:0px;
+margin-top: 10%;
 }
 
 code {
