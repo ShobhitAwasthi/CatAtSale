@@ -29,9 +29,9 @@ class ReloadCats extends React.Component{
             <>
             <div className="reload">
             <p>
-            Reload the CAT SHOP with how many cats?
+             Reload the CAT SHOP with how many cats?
             </p>
-            <input type="text" id="cats"  value={this.state.newCats} onChange={(e)=>this.changeNewCats(e)}/>
+            <input type="text" id="cats"  value={this.state.newCats} style={{width:"20px"}}onChange={(e)=>this.changeNewCats(e)}/>
             <input type="submit" value="Get Cats!!!!" id="getCatButton"onClick={this.getMoreCats}/>
             </div>
             {(this.state.warning)?<div style={{color:"red"}}><b>Enter a number greater than 2 and less than 21!</b></div>:""}

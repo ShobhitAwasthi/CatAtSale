@@ -152,5 +152,10 @@ img{
   position: fixed;
   bottom: 0;
 }
+.reload{
+  display: flex;
+  justify-content: center;
+  margin:10px;
+}
 
            
